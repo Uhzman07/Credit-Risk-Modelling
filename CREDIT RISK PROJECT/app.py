@@ -17,13 +17,15 @@ st.write("Enter applicant information to predict if the credit risk is good")
 
 # This is to derive the age
 age = st.number_input("Age", min_value = 18, max_value = 80, value = 30)
-sex = st.select_box("Sex", ["male", "female"])
+sex = st.selectbox("Sex", ["male", "female"]) # made some changes to the function here!
 job = st.number_input("Job (0-3)", min_value = 0, max_value =3, value =1)
-housing = st.select_box("Housing", ["own", "rent", "free"])
-saving_accounts = set.select_box("Saving Accounts", ["little", "moderate","rich", "quite rich"])
-checking_account = set.select_box("Checking Account", ["little", "moderate","rich"])
+housing = st.selectbox("Housing", ["own", "rent", "free"])
+saving_accounts = set.selectbox("Saving Accounts", ["little", "moderate","rich", "quite rich"])
+checking_account = set.selectbox("Checking Account", ["little", "moderate","rich"])
 credit_amount = st.number_input("Credit Amount", min_value = 0, value = 1000 )
 duration = st.number_input("Duration (months)", min_value = 1, value = 12)
+
+
 
 input_df = pd.DataFrame({
     "Age" : [age],
