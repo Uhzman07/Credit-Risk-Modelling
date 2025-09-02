@@ -39,6 +39,8 @@ input_df = pd.DataFrame({
 }
 )
 
+# We 
+
 # Here we are using the same label encoder just like the last one that we used! This will ensure that the right mapping is set based on the last one!
 # We are also selecting the first one from the "transform()" results because something like this -> array([2]) is returned! 
 '''
