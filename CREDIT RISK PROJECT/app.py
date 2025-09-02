@@ -33,7 +33,7 @@ input_df = pd.DataFrame({
     "Job" : [job],
     "Housing": [encoders["Housing"].transform([housing])[0]],
     "Saving accounts": [encoders["Saving accounts"].transform([saving_accounts])[0]],
-    "Checking account": [encoders["checking account"].transform([checking_account])[0]],
+    "Checking account": [encoders["Checking account"].transform([checking_account])[0]],
     "Credit amount" : [credit_amount],
     "Duration" : [duration]
 }
