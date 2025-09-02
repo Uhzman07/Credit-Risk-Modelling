@@ -31,7 +31,8 @@ To make the model accessible and interactive, a user interface was built using `
 This project serves as a practical demonstration of how machine learning can be applied to financial risk assessment. It’s designed for educational purposes, portfolio building, and as a foundation for more advanced credit scoring systems. 
 
 ## Sample Interface
-![CREDIT RISK PROJECT](My%20image.png)
+![CREDIT RISK PROJECT](CREDIT%20RISK%20PROJECT/My%20image.png)
+
 
 
 
