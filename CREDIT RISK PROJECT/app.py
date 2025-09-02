@@ -20,8 +20,8 @@ age = st.number_input("Age", min_value = 18, max_value = 80, value = 30)
 sex = st.selectbox("Sex", ["male", "female"]) # made some changes to the function here!
 job = st.number_input("Job (0-3)", min_value = 0, max_value =3, value =1)
 housing = st.selectbox("Housing", ["own", "rent", "free"])
-saving_accounts = set.selectbox("Saving Accounts", ["little", "moderate","rich", "quite rich"])
-checking_account = set.selectbox("Checking Account", ["little", "moderate","rich"])
+saving_accounts = st.selectbox("Saving Accounts", ["little", "moderate","rich", "quite rich"])
+checking_account = st.selectbox("Checking Account", ["little", "moderate","rich"])
 credit_amount = st.number_input("Credit Amount", min_value = 0, value = 1000 )
 duration = st.number_input("Duration (months)", min_value = 1, value = 12)
 
